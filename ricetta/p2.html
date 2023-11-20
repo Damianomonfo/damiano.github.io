@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Modulo di Raccolta Dati</title>
+</head>
+<body>
+    <h1>Modulo di Raccolta Dati</h1>
+    <form action="home.html" method="post">
+        <label for="email">Indirizzo Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="consenso">Acconsento al trattamento dei dati:</label>
+        <input type="checkbox" id="consenso" name="consenso" required><br><br>
+
+        <label for="gradimento">Livello di Gradimento:</label>
+        <select id="gradimento" name="gradimento" required>
+            <option value="molto">Molto Soddisfatto</option>
+            <option value="abbastanza">Abbastanza Soddisfatto</option>
+            <option value="poco">Poco Soddisfatto</option>
+        </select><br><br>
+
+      <a href="home.html"> invio</a>
+    </form>
+</body>
+</html>
