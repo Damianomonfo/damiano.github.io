@@ -2,26 +2,74 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Modulo di Raccolta Dati</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>  Modulo di Raccolta Dati  </title> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        input[type="checkbox"] {
+            margin-bottom: 0;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
-    <h1>Modulo di Raccolta Dati</h1>
+    <h1> <center>Modulo di Raccolta Dati </center></h1>
     <form action="home.html" method="post">
         <label for="email">Indirizzo Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+        <input type="email" id="email" name="email" required>
 
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br><br>
+        <input type="password" id="password" name="password" required>
 
         <label for="consenso">Acconsento al trattamento dei dati:</label>
-        <input type="checkbox" id="consenso" name="consenso" required><br><br>
+        <input type="checkbox" id="consenso" name="consenso" required>
 
         <label for="gradimento">Livello di Gradimento:</label>
         <select id="gradimento" name="gradimento" required>
             <option value="molto">Molto Soddisfatto</option>
             <option value="abbastanza">Abbastanza Soddisfatto</option>
             <option value="poco">Poco Soddisfatto</option>
-        </select><br><br>
+        </select>
 
         <input type="submit" value="Invia">
     </form>
