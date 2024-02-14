@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+tr.group:hover {
+    background-color: yellow;
+}
+
+td.selected {
+    color: red;
+}
+
+.group {
+    color: green;
+}
